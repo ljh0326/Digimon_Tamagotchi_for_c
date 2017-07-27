@@ -1,0 +1,106 @@
+﻿빌드 시작: 2017-07-15 오전 9:58:15
+     1>2 노드의 "C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Digimon\Digimon.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Digimon.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt screen.c
+         screen.c
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(220): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(358): warning C4244: '함수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(633): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(644): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(644): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(843): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(937): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(941): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(945): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(949): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(953): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1497): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : 'localtime' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1516): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1517): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1517): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1518): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1526): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1536): warning C4033: 'saveScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1540): warning C4033: 'saveScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1606): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1614): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1622): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1625): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1638): warning C4033: 'traningMenuScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1935): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1936): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1944): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1952): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1976): warning C4033: 'storeScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2267): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2275): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2283): warning C4554: '&' : 연산자 우선 순위에 오류가 있는지 확인하십시오. 괄호를 사용하여 우선 순위를 명확하게 지정하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2286): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2324): warning C4033: 'foodSelectScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2604): warning C4033: 'eatBeef'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2673): warning C4033: 'eatPeel'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2753): warning C4033: 'evolution1'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2833): warning C4033: 'evolution2'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2913): warning C4033: 'evolution3'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2955): warning C4129: ' ' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2957): warning C4129: ' ' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2959): warning C4129: '_' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2984): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2986): warning C4033: 'hintScreen'은(는) 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(756): warning C4716: 'signinScreen' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(763): warning C4716: 'loginScreen' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1542): warning C4716: 'saveScreen' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(1859): warning C4715: 'traningMenuScreen' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2208): warning C4715: 'storeScreen' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2536): warning C4716: 'foodSelectScreen' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2605): warning C4716: 'eatBeef' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2674): warning C4716: 'eatPeel' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2754): warning C4716: 'evolution1' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2834): warning C4716: 'evolution2' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2914): warning C4716: 'evolution3' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(2987): warning C4716: 'hintScreen' : 값을 반환해야 합니다.
+     1>c:\users\lee\documents\visual studio 2010\projects\digimon\digimon\screen.c(3025): warning C4716: 'monsterMove' : 값을 반환해야 합니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Debug\Digimon.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Digimon.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Debug\Digimon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Debug\Digimon.lib" /MACHINE:X86 Debug\Digimon.exe.embed.manifest.res
+         Debug\login.obj
+         Debug\main.obj
+         Debug\monster.obj
+         Debug\screen.obj
+         Debug\tools.obj
+         Debug\training.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Digimon.exe.embed.manifest" /manifest Debug\Digimon.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         Digimon.vcxproj -> C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Debug\Digimon.exe
+       FinalizeBuildStatus:
+         "Debug\Digimon.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Digimon.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\Lee\Documents\Visual Studio 2010\Projects\Digimon\Digimon\Digimon.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.39
